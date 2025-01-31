@@ -7,7 +7,7 @@ const app = require('express')()
 const PORT = 3000
 app.listen(PORT, () => console.log(`Aplicação rodando em ${PORT}`))
 
-app.get('/skills', (req, res) => {
+app.get('/motorcycle', (req, res) => {
     res.send([
     {
         "marca": "Honda",
@@ -117,4 +117,4 @@ app.get('/skills', (req, res) => {
 })
 
 //run server: "node ."
-//acesse a URL: http://localhost:3000/skills
+//acesse a URL: http://localhost:3000/motorcycle
